@@ -1,0 +1,59 @@
+.ad-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем элементы по горизонтали */
+    width: 500px; /* Устанавливаем ширину в 500px */
+    margin: 0 auto; /* Центрируем по горизонтали */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ad-item h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.ad-item p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+.ad-item-buttons {
+    display: flex;
+}
+
+.edit-button{
+    background-color: #0d1ad7;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.delete-button {
+    background-color: #a10916;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.edit-button:hover{
+    background-color: #34417c;
+}
+.delete-button:hover {
+    background-color: #d23234;
+}
